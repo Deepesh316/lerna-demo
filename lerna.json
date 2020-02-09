@@ -1,0 +1,4 @@
+{
+  "packages": ["api/*", "services/*", "utils/*", "middleware/*"],
+  "version": "independent"
+}
