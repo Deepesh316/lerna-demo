@@ -20,8 +20,7 @@
     "url": "git+https://github.com/Deepesh316/lerna-demo.git"
   },
   "scripts": {
-    "build": "tsc",
-    "test": "jest --colors"
+    "build": "tsc"
   },
   "bugs": {
     "url": "https://github.com/Deepesh316/lerna-demo/issues"
