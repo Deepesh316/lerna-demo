@@ -1,0 +1,40 @@
+{
+  "name": "@dkr/server",
+  "version": "1.0.0",
+  "description": "Reusable server utility function with basic error handling and configurable port and routes",
+  "keywords": [
+    "server"
+  ],
+  "author": "Deepesh Kumar R <deepeshkumarr316@gmail.com>",
+  "homepage": "https://github.com/Deepesh316/lerna-demo#readme",
+  "license": "ISC",
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deepesh316/lerna-demo.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/Deepesh316/lerna-demo/issues"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "@types/hapi__joi": "^16.0.9"
+  },
+  "dependencies": {
+    "@dkr/logger": "^1.0.0",
+    "@hapi/joi": "^17.1.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-joi-validation": "^4.0.3",
+    "helmet": "^3.21.2",
+    "lodash": "^4.17.15"
+  }
+}

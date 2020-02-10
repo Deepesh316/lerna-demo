@@ -29,3 +29,7 @@ lerna create <new package name (including scope)> eg: lerna create <package-name
 # display list of packages
 
 lerna ls or lerna list
+
+# add dependency to packages
+
+lerna add <package-1> --scope=<package-2> ie; install <package-1> to <package-2>
