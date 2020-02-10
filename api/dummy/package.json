@@ -1,0 +1,33 @@
+{
+  "name": "@dkr/dummy",
+  "version": "1.0.0",
+  "description": "Dummy",
+  "author": "Deepesh Kumar R <deepeshkumarr316@gmail.com>",
+  "homepage": "https://github.com/Deepesh316/lerna-demo#readme",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deepesh316/lerna-demo.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev:ci": "ts-node-dev --respawn --transpileOnly index.ts"
+  },
+  "bugs": {
+    "url": "https://github.com/Deepesh316/lerna-demo/issues"
+  },
+  "dependencies": {
+    "@dkr/logger": "^1.0.0",
+    "@dkr/server": "^1.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.44"
+  }
+}
