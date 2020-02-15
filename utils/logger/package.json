@@ -1,0 +1,37 @@
+{
+  "name": "@dkr/logger",
+  "version": "1.0.0",
+  "description": "Logger",
+  "keywords": [
+    "logger",
+    "audit",
+    "pino",
+    "winston"
+  ],
+  "author": "Deepesh Kumar R <deepeshkumarr316@gmail.com>",
+  "homepage": "https://github.com/Deepesh316/lerna-demo#readme",
+  "license": "ISC",
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Deepesh316/lerna-demo.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "bugs": {
+    "url": "https://github.com/Deepesh316/lerna-demo/issues"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.15",
+    "pino": "^5.16.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.149",
+    "@types/pino": "^5.15.5"
+  }
+}
