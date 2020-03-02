@@ -1,0 +1,28 @@
+{
+  "name": "@dkr/dbcache",
+  "version": "1.0.0",
+  "description": "Used for storing data in cache",
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Deepesh Kumar R <deepeshkumar6080@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@dkr/logger": "^1.0.0",
+    "cache-manager": "^3.1.0",
+    "cache-manager-mongoose": "0.0.4",
+    "dotenv": "^8.2.0",
+    "lodash": "^4.17.15",
+    "mongo-uri-builder": "^2.0.0",
+    "mongoose": "^5.9.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.149",
+    "@types/mongodb-memory-server": "^2.3.0"
+  }
+}

@@ -1,37 +1,43 @@
 {
-  "name": "@dkr/dummy",
+  "name": "@dkr/mongo-connector",
   "version": "1.0.0",
-  "description": "Dummy",
+  "description": "MongoDB connector package",
+  "keywords": [
+    "mongodb",
+    "connector"
+  ],
   "author": "Deepesh Kumar R <deepeshkumarr316@gmail.com>",
   "homepage": "https://github.com/Deepesh316/lerna-demo#readme",
   "license": "ISC",
-  "main": "dist/index.js",
+  "main": "index.js",
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Deepesh316/lerna-demo.git"
   },
   "scripts": {
     "build": "tsc",
-    "dev:ci": "ts-node-dev --respawn --transpileOnly index.ts"
+    "dev:ci": "ts-node-dev --respawn --transpileOnly index.ts",
+    "test": "jest"
   },
   "bugs": {
     "url": "https://github.com/Deepesh316/lerna-demo/issues"
   },
   "dependencies": {
-    "@dkr/dbcache": "^1.0.0",
     "@dkr/logger": "^1.0.0",
-    "@dkr/mongo-connector": "^1.0.0",
-    "@dkr/server": "^1.0.0",
     "dotenv": "^8.2.0",
-    "express": "^4.17.1",
     "lodash": "^4.17.15",
-    "mongodb": "^3.5.4"
+    "mongo-uri-builder": "^2.0.0",
+    "mongodb": "^3.5.3"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.149",
     "@types/mongodb": "^3.3.16",
-    "ts-node-dev": "^1.0.0-pre.44"
+    "mongodb-memory-server": "^6.2.4"
   }
 }

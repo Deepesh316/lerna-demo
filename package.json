@@ -7,7 +7,7 @@
     "docs": "lerna run docs",
     "build": "lerna run build",
     "clean": "lerna run clean",
-    "test": "jest",
+    "test": "jest --runInBand --detectOpenHandles",
     "test:ci": "jest --silent --colors --ci --reporters=default --reporters=jest-junit",
     "test:watch": "jest --watch --colors",
     "release": "lerna publish",
@@ -16,6 +16,7 @@
   "devDependencies": {
     "@types/express": "^4.17.2",
     "@types/jest": "^25.1.2",
+    "@types/lodash": "^4.14.149",
     "@types/node": "^13.7.0",
     "jest": "^25.1.0",
     "jest-junit": "^10.0.0",
@@ -24,5 +25,12 @@
     "ts-jest": "^25.2.0",
     "tslint": "^6.0.0",
     "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15"
   }
 }
